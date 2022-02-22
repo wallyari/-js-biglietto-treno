@@ -21,10 +21,13 @@ else{
     totalPrice = partialPrice;
 }
 
-const outcome = totalPrice;
+const outcome = totalPrice.toFixed(2);
 
 
 document.getElementById("outcome").innerHTML = "Il prezzo del tuo biglietto è: " + totalPrice + '€';
+
+
+
 
 
 
